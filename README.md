@@ -103,7 +103,7 @@ Here are some basic React commands and syntax you'll need for working with these
         const name = event.target.name;
         const value = event.target.value;
 
-        setInputs(values => ({...values, [name]: value}))
+        setInputs({...inputs, [name]: value})
     }
 
     const handleSubmit = (event) => {
