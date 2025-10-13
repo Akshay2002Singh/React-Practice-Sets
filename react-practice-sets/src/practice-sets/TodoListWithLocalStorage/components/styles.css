@@ -1,0 +1,41 @@
+.todo-table{
+    border-collapse: collapse;
+}
+
+.todo-table th, .todo-table td{
+    border: 1px solid white;
+    padding: 8px 12px;
+}
+
+.todo-table th:nth-child(2), .todo-table td:nth-child(2){
+    width: 400px;
+}
+
+.todo-table td button{
+    padding: 6px 12px;
+    color: red;
+}
+
+.add-task-row {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+}
+
+.add-task-row input{
+    border-radius: 4px;
+    overflow: hidden;
+    border: 0px;
+}
+
+.add-task-row button{
+    padding: 6px 12px;
+}
+
+.disabled-btn:hover{
+    cursor: not-allowed;
+    outline: none;
+    border-color: transparent;
+}
