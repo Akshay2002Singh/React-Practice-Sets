@@ -1,0 +1,26 @@
+.light-bloc-container{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.light-bloc-led{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.red-led {
+    background-color: red;
+}
+
+.yellow-led {
+    background-color: yellow;
+}
+
+.green-led {
+    background-color: green;
+}
