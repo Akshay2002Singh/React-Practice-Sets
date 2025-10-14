@@ -1,0 +1,20 @@
+.input-row{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.action-btn-row{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+}
+
+.disabled-btn {
+    outline: none;
+}
+
+.disabled-btn :hover{
+    cursor: not-allowed;
+}
