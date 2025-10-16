@@ -1,0 +1,22 @@
+.time-output-container{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.time-output-container span{
+    font-size: 32px;
+}
+
+.stop-watch-action-btn-row {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    margin: 18px 0px;
+}
+
+.time-laps-list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}

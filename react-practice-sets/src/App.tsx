@@ -1,4 +1,5 @@
 import './App.css'
+import StopWatch from './practice-sets/StopWatch'
 import Timer from './practice-sets/Timer'
 import TodoListWithLocalStorage from './practice-sets/TodoListWithLocalStorage'
 import TrafficLight from './practice-sets/TrafficLight'
@@ -9,7 +10,8 @@ function App() {
     <div>
       {/* <TrafficLight /> */}
       {/* <TodoListWithLocalStorage /> */}
-      <Timer />
+      {/* <Timer /> */}
+      <StopWatch />
     </div>
   )
 }
