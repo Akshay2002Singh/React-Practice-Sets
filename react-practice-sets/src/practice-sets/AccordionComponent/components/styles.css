@@ -1,0 +1,29 @@
+.accordion-container{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.accordion-item {
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding: 8px 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.accordion-item>div {
+    text-align: left;
+}
+
+.accordion-item>div:first-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.accordion-item:hover{
+    cursor: pointer;
+    user-select: none;
+}

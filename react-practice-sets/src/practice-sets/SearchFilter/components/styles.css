@@ -1,0 +1,12 @@
+.search-filter-output {
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 32px 16px;
+    min-height: 200px;
+}
+
+.search-filter-output-bold {
+    color: green;
+}
