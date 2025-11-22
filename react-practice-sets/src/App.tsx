@@ -1,5 +1,6 @@
 import './App.css'
 import { AccordionComponent } from './practice-sets/AccordionComponent'
+import { FileExplorer } from './practice-sets/FileExplorer'
 import OtpComponent from './practice-sets/OtpComponent'
 import SearchFilter from './practice-sets/SearchFilter'
 import StopWatch from './practice-sets/StopWatch'
@@ -17,7 +18,8 @@ function App() {
       {/* <StopWatch /> */}
       {/* <SearchFilter /> */}
       {/* <AccordionComponent /> */}
-      <OtpComponent />
+      {/* <OtpComponent /> */}
+      <FileExplorer />
     </div>
   )
 }
