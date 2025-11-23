@@ -4,3 +4,92 @@
   /* padding: 2rem; */
   text-align: center;
 }
+
+/* Layout */
+.app-container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Sidebar Menu */
+.app-menu {
+  width: 280px;
+  padding: 20px;
+  border-right: 2px solid #e5e5e5;
+}
+
+/* Title */
+.app-menu-title {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Card List */
+.app-card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Individual Card */
+.app-card {
+  padding: 14px;
+  border: 1px solid #d8d8d8;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 15px;
+}
+
+.app-card:hover {
+  border-color: #7aa7ff;
+  transform: translateY(-2px);
+}
+
+/* Component viewer */
+.app-view {
+  flex: 1;
+  padding: 20px;
+}
+
+/* -------------------------- */
+/* 📱 MOBILE FIX (max-width: 480px) */
+/* -------------------------- */
+@media (max-width: 480px) {
+  .app-container {
+    flex-direction: column;
+  }
+
+  .app-menu {
+    width: 100%;
+    border-right: none;
+    border-bottom: 2px solid #e5e5e5;
+  }
+
+  .app-card-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+    gap: 10px;
+  }
+
+  .app-card {
+    font-size: 13px;
+    padding: 12px;
+  }
+
+  .app-view {
+    padding: 12px;
+  }
+}
+
+/* -------------------------- */
+/* 📱 VERY SMALL MOBILE (max-width: 360px) */
+/* -------------------------- */
+@media (max-width: 360px) {
+  .app-card-list {
+    grid-template-columns: 1fr; /* stack single column */
+  }
+}
