@@ -1,5 +1,7 @@
 # **_React-Practice-Sets_**
 
+🔗 **Live Demo:**: https://akshay2002singh.github.io/React-Practice-Sets/
+
 Welcome to the React Practice Sets repository!  
 This project contains a collection of small to medium-level React problems commonly asked in frontend interviews.  
 Each folder inside **/src/practice-sets/** contains a standalone React component (problem) that you can practice and build.

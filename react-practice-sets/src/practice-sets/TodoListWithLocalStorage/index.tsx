@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { TodoTable } from "./components/TodoTable";
-import { TASK_STATUS, type TaskStatusType } from "./constant";
+import { TASK_STATUS } from "./constant";
 import type { TableItemType } from "./types";
 import { TodoAddTask } from "./components/TodoAddTask";
 import { getLocalStorageData, setLocalStorageData } from "./utils";
