@@ -1,0 +1,31 @@
+.product-card{
+    border: 1px solid gray;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 12px;
+    width: 280px;
+    position: relative;
+}
+
+.product-title{
+    text-align: center;
+    padding: 4px 8px;
+    font-size: 18px;
+}
+
+.product-card>div{
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 10px;
+}
+
+.rating-chip{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 12px;
+    background-color: rgb(75, 75, 75);
+    padding: 2px 6px;
+    font-size: 12px;
+}

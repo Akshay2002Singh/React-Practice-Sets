@@ -1,0 +1,16 @@
+#product-page {
+    width: 100%;
+    height: 100%;
+}
+
+#product-page>div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.m10{
+    margin: 10px;
+}
