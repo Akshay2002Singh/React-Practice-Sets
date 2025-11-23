@@ -20,6 +20,7 @@ Inside src/practice-sets/, you will find:
 | Timer | Countdown timer using setInterval |
 | TodoListWithLocalStorage | Todo app with localStorage persistence |
 | TrafficLight | Auto-changing traffic light component |
+| InfiniteScroll | Auto load next products as user reaches end |
 
 More sets will be added regularly to help you practice interview questions.
 
