@@ -10,6 +10,7 @@ import Timer from "./practice-sets/Timer";
 import TodoListWithLocalStorage from "./practice-sets/TodoListWithLocalStorage";
 import TrafficLight from "./practice-sets/TrafficLight";
 import InfiniteScroll from "./practice-sets/InfiniteScroll/index.jsx";
+import MultipleTimers from "./practice-sets/MultipleTimers/index.jsx";
 
 type ComponentKey =
   | "accordion"
@@ -20,7 +21,8 @@ type ComponentKey =
   | "timer"
   | "todo"
   | "trafficLight"
-  | "InfiniteScroll";
+  | "InfiniteScroll"
+  | "MultipleTimers";
 
 const componentMap: Record<ComponentKey, JSX.Element> = {
   accordion: <AccordionComponent />,
@@ -31,7 +33,8 @@ const componentMap: Record<ComponentKey, JSX.Element> = {
   timer: <Timer />,
   todo: <TodoListWithLocalStorage />,
   trafficLight: <TrafficLight />,
-  InfiniteScroll: <InfiniteScroll />
+  InfiniteScroll: <InfiniteScroll />,
+  MultipleTimers: <MultipleTimers />,
 };
 
 export default function App() {
@@ -99,12 +102,19 @@ export default function App() {
           >
             Traffic Light
           </div>
-          
+
           <div
             className="app-card"
             onClick={() => setActiveComponent("InfiniteScroll")}
           >
             InfiniteScroll
+          </div>
+
+          <div
+            className="app-card"
+            onClick={() => setActiveComponent("MultipleTimers")}
+          >
+            MultipleTimers
           </div>
         </div>
       </div>
